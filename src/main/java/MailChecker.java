@@ -1,4 +1,4 @@
-import secret.Credenrials;
+import secret.KeyLogin;
 
 import javax.mail.Folder;
 import javax.mail.Message;
@@ -7,7 +7,7 @@ import javax.mail.Store;
 import java.util.Properties;
 
 
-public class MainChecker extends Credenrials {
+public class MailChecker extends KeyLogin {
 
 
     public static void main(String[] args) {
